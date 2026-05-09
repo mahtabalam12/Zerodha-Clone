@@ -1,3 +1,4 @@
+/*
 import React from "react";
 
 function Pricing() {
@@ -32,6 +33,72 @@ function Pricing() {
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  );
+}
+
+export default Pricing;
+*/
+
+import React from "react";
+
+function Pricing() {
+  return (
+    <div className="container py-5">
+      <div className="row align-items-center gy-5">
+
+        <div className="col-lg-5 col-md-12 text-center text-lg-start">
+          <h1 className="mb-4 fw-bold display-6">
+            Unbeatable pricing
+          </h1>
+
+          <p className="lead">
+            We pioneered the concept of discount broking and
+            price transparency in India. Flat fees and no
+            hidden charges.
+          </p>
+
+          <a
+            href="/pricing"
+            style={{ textDecoration: "none", fontWeight: "500" }}
+          >
+            See Pricing{" "}
+            <i
+              className="fa fa-long-arrow-right"
+              aria-hidden="true"
+            ></i>
+          </a>
+        </div>
+
+        <div className="col-lg-7 col-md-12">
+          <div className="row text-center g-4">
+
+            <div className="col-md-6">
+              <div className="border rounded p-4 h-100 shadow-sm">
+                <h1 className="mb-3 fw-bold">₹0</h1>
+
+                <p className="mb-0">
+                  Free equity delivery and
+                  <br />
+                  direct mutual funds
+                </p>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="border rounded p-4 h-100 shadow-sm">
+                <h1 className="mb-3 fw-bold">₹20</h1>
+
+                <p className="mb-0">
+                  Intraday and F&O
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
   );
