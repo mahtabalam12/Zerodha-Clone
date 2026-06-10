@@ -105,7 +105,13 @@ function Navbar() {
 
             <li className="nav-item">
               <Link className="nav-link active" to="/signup">
-                Launch Dashboard
+                Signup
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link active" to="/login">
+                Login
               </Link>
             </li>
 
